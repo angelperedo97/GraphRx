@@ -1,0 +1,17 @@
+atom_types;['C', 'N', 'O', 'S', 'Cl']
+formal_charge;[-1, 0, 1]
+max_n_nodes;13
+job_type;preprocess
+dataset_dir;./data/pre-training/gdb13_1K/
+restart;False
+model;AttS2V
+sample_every;10
+init_lr;0.0001
+epochs;400
+batch_size;100
+block_size;100000
+device;cuda
+generation_epoch;400
+n_samples;30000
+job_dir;/home/angel/GraphINVENT/output_gdb13_1K/preprocess/job_0/
+tensorboard_dir;/home/angel/GraphINVENT/output_gdb13_1K/tensorboard/preprocess/job_0/
